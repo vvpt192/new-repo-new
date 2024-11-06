@@ -1,6 +1,7 @@
     *{
         margin: 0px;
         padding: 0px;
+        box-sizing: border-box;
     }
     body{
         background-color: rgb(192, 64, 85);
@@ -26,6 +27,12 @@
        /* Optional: Set initial background color */
      /* Smooth transition for the hover effect */
     }
+    @media (max-width: 480px) {
+        .choices {
+            flex-direction: row;
+            align-items: center;
+            display: flex;
+        }}
     
     .choice:hover {
         cursor: pointer;
@@ -59,7 +66,7 @@
         display: flex;
         justify-content: center;
         gap: 5rem;
-        background-color: ;    }
+         }
         
     .score{
         color: white;
@@ -90,4 +97,4 @@
         margin-top:2rem;    
 
     }
-   
+    
