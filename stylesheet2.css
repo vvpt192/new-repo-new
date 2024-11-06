@@ -1,0 +1,93 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: rgb(192, 64, 85);
+    }
+
+    h1{
+        background-color: darkolivegreen;
+        color: aliceblue;
+        text-align: center;
+        line-height: 3rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .choice {
+        height: 111px;
+        width: 111px;
+       border-radius: 50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       /* Optional: Set initial background color */
+     /* Smooth transition for the hover effect */
+    }
+    
+    .choice:hover {
+        cursor: pointer;
+        background-color: black; 
+      
+    }
+    img{
+        height: 100px;
+        width: 100px;
+        border-radius:50%;
+        object-fit: cover;
+       border-style:solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        filter: grayscale(5);
+    }
+
+    .choices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .score-board{
+        margin: 5rem;
+        text-align: center;    
+        align-items: center;
+        contain: content;
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        background-color: ;    }
+        
+    .score{
+        color: white;
+        font-size: 2rem;
+    }
+    #userscore,#compscore{
+        font-size: 5rem;
+    }
+    
+    .msg-container{
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    #msg{
+
+        background-color: blue;
+        color: white;
+        display:inline;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    #restbtn{background-color:chartreuse;
+        color:red;
+        display:inline;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-top:2rem;    
+
+    }
+   
